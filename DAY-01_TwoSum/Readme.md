@@ -12,11 +12,21 @@ The goal is to find two indices in an array such that their corresponding values
 
 Given an array of integers `arr` and an integer `target`, return the indices of the two numbers such that:
 
+```
 arr[i] + arr[j] = target
+```
+
+### 📝 Rules:
 
 * Each input has exactly one solution
 * You cannot use the same element twice
 * Return indices of the two numbers
+
+---
+
+## 🔗 Problem Link
+
+https://leetcode.com/problems/two-sum/
 
 ---
 
@@ -28,7 +38,9 @@ This solution uses a **HashMap** to achieve optimal performance:
 
 * For each element, calculate the required complement:
 
+  ```
   required = target - current_element
+  ```
 
 * Check if the complement exists in the map
 
@@ -50,15 +62,17 @@ This solution uses a **HashMap** to achieve optimal performance:
 ## 🛠️ Technologies Used
 
 * Java
-* HashMap (from `java.util`)
+* HashMap (`java.util`)
 
 ---
 
 ## 📂 Project Structure
 
 ```
-TwoSum.java
-README.md
+DAY-01_TwoSum/
+│
+├── TwoSum.java
+└── README.md
 ```
 
 ---
@@ -68,13 +82,13 @@ README.md
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/two-sum-java.git
+git clone https://github.com/Meghanagowd/Leetcode_problems.git
 ```
 
 2. Navigate to the folder:
 
 ```
-cd two-sum-java
+cd Leetcode_problems/DAY-01_TwoSum
 ```
 
 3. Compile the code:
@@ -110,26 +124,26 @@ Enter target: 9
 
 ## 🎯 Key Learning
 
-* Efficient use of **HashMap for lookup**
-* Reducing time complexity from **O(n²) → O(n)**
-* Understanding complement-based searching
+* Efficient use of **HashMap for fast lookup**
+* Reduced time complexity from **O(n²) → O(n)**
+* Understanding **complement-based problem solving**
 
 ---
 
 ## 📈 Future Improvements
 
-* Handle multiple pairs
+* Handle multiple valid pairs
 * Return values instead of indices
-* Implement brute-force and two-pointer approaches for comparison
+* Implement brute-force and two-pointer approaches
 
 ---
 
 ## 🤝 Contribution
 
-Feel free to fork this repo, improve it, and submit a pull request!
+Feel free to fork this repository and improve it!
 
 ---
 
 ## ⭐ Support
 
-If you found this helpful, consider giving this repository a star ⭐
+If you found this helpful, consider giving this repository a ⭐
