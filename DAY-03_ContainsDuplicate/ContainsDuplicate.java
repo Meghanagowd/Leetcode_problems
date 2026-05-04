@@ -37,6 +37,5 @@ public class ContainsDuplicate {
         // Output
         System.out.println("Contains Duplicate: " + result);
 
-        sc.close();
-    }
+        sc.close();   }
 }
