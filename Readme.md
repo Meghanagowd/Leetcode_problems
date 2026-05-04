@@ -105,6 +105,7 @@ java TwoSum
 
 ✔️ Day 01 → Two Sum
 ✔️ Day 02 → Buy and Sell Stock
+✔️ Day 03 → Contains Duplicate
 
 🚀 On track to complete 100 DSA problems
 
