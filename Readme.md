@@ -27,6 +27,10 @@ Leetcode_problems/
 │   ├── BuyAndSellStock.java
 │   └── README.md
 │
+├── DAY-03_ContainsDuplicate/
+│   ├── ContainsDuplicate.java
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -38,6 +42,7 @@ Leetcode_problems/
 | ------ | ------------------ | ----------- | --------------- | ------ |
 | Day 01 | Two Sum            | HashMap     | O(n)            | ✅      |
 | Day 02 | Buy and Sell Stock | Single Pass | O(n)            | ✅      |
+| Day 03 | Contains Duplicate | HashSet     | O(n)            | ✅      |
 
 ---
 
@@ -100,15 +105,11 @@ java TwoSum
 
 ## 📈 Progress
 
-
-## 📈 Progress
-
 ✔️ Day 01 → Two Sum
 ✔️ Day 02 → Buy and Sell Stock
 ✔️ Day 03 → Contains Duplicate
 
 🚀 On track to complete 100 DSA problems
-
 
 ---
 
