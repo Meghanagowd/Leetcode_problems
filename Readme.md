@@ -16,7 +16,7 @@ This repository contains my **day-wise LeetCode solutions in Java**, along with 
 
 ## 📂 Repository Structure
 
-```bash
+```bash id="r2l7p6"
 Leetcode_problems/
 │
 ├── DAY-01_TwoSum/
@@ -31,6 +31,10 @@ Leetcode_problems/
 │   ├── ContainsDuplicate.java
 │   └── README.md
 │
+├── DAY-04_MoveZeroes/
+│   ├── MoveZeroes.java
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -38,11 +42,12 @@ Leetcode_problems/
 
 ## 🚀 DSA Progress Tracker
 
-| Day    | Problem            | Approach    | Time Complexity | Status |
-| ------ | ------------------ | ----------- | --------------- | ------ |
-| Day 01 | Two Sum            | HashMap     | O(n)            | ✅      |
-| Day 02 | Buy and Sell Stock | Single Pass | O(n)            | ✅      |
-| Day 03 | Contains Duplicate | HashSet     | O(n)            | ✅      |
+| Day    | Problem            | Approach     | Time Complexity | Status |
+| ------ | ------------------ | ------------ | --------------- | ------ |
+| Day 01 | Two Sum            | HashMap      | O(n)            | ✅      |
+| Day 02 | Buy and Sell Stock | Single Pass  | O(n)            | ✅      |
+| Day 03 | Contains Duplicate | HashSet      | O(n)            | ✅      |
+| Day 04 | Move Zeroes        | Two Pointers | O(n)            | ✅      |
 
 ---
 
@@ -84,19 +89,19 @@ Leetcode_problems/
 
 1. Clone the repository:
 
-```bash
+```bash id="8l7p6c"
 git clone https://github.com/Meghanagowd/Leetcode_problems.git
 ```
 
 2. Navigate to any problem folder:
 
-```bash
+```bash id="2m9xk1"
 cd Leetcode_problems/DAY-01_TwoSum
 ```
 
 3. Compile and run:
 
-```bash
+```bash id="7p4z2k"
 javac TwoSum.java
 java TwoSum
 ```
@@ -108,6 +113,7 @@ java TwoSum
 ✔️ Day 01 → Two Sum
 ✔️ Day 02 → Buy and Sell Stock
 ✔️ Day 03 → Contains Duplicate
+✔️ Day 04 → Move Zeroes
 
 🚀 On track to complete 100 DSA problems
 
