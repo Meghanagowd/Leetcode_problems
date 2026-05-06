@@ -16,7 +16,7 @@ This repository contains my **day-wise LeetCode solutions in Java**, along with 
 
 ## 📂 Repository Structure
 
-```bash id="r2l7p6"
+```bash id="4l1hvy"
 Leetcode_problems/
 │
 ├── DAY-01_TwoSum/
@@ -35,6 +35,10 @@ Leetcode_problems/
 │   ├── MoveZeroes.java
 │   └── README.md
 │
+├── DAY-05_ValidAnagram/
+│   ├── ValidAnagram.java
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -42,12 +46,13 @@ Leetcode_problems/
 
 ## 🚀 DSA Progress Tracker
 
-| Day    | Problem            | Approach     | Time Complexity | Status |
-| ------ | ------------------ | ------------ | --------------- | ------ |
-| Day 01 | Two Sum            | HashMap      | O(n)            | ✅      |
-| Day 02 | Buy and Sell Stock | Single Pass  | O(n)            | ✅      |
-| Day 03 | Contains Duplicate | HashSet      | O(n)            | ✅      |
-| Day 04 | Move Zeroes        | Two Pointers | O(n)            | ✅      |
+| Day    | Problem            | Approach            | Time Complexity   | Status |
+| ------ | ------------------ | ------------------- | ----------------- | ------ |
+| Day 01 | Two Sum            | HashMap             | O(n)              | ✅      |
+| Day 02 | Buy and Sell Stock | Single Pass         | O(n)              | ✅      |
+| Day 03 | Contains Duplicate | HashSet             | O(n)              | ✅      |
+| Day 04 | Move Zeroes        | Two Pointers        | O(n)              | ✅      |
+| Day 05 | Valid Anagram      | Sorting / Frequency | O(n log n) / O(n) | ✅      |
 
 ---
 
@@ -64,7 +69,7 @@ Leetcode_problems/
 ## 🔥 Learning Strategy
 
 * Start with **brute-force thinking**
-* Optimize using **data structures (HashMap, arrays, etc.)**
+* Optimize using **data structures and algorithms**
 * Focus on **why the solution works**
 * Maintain **clean and structured code**
 
@@ -89,19 +94,19 @@ Leetcode_problems/
 
 1. Clone the repository:
 
-```bash id="8l7p6c"
+```bash id="f6m7n2"
 git clone https://github.com/Meghanagowd/Leetcode_problems.git
 ```
 
 2. Navigate to any problem folder:
 
-```bash id="2m9xk1"
+```bash id="q9t3zp"
 cd Leetcode_problems/DAY-01_TwoSum
 ```
 
 3. Compile and run:
 
-```bash id="7p4z2k"
+```bash id="c0r2xl"
 javac TwoSum.java
 java TwoSum
 ```
@@ -114,6 +119,7 @@ java TwoSum
 ✔️ Day 02 → Buy and Sell Stock
 ✔️ Day 03 → Contains Duplicate
 ✔️ Day 04 → Move Zeroes
+✔️ Day 05 → Valid Anagram
 
 🚀 On track to complete 100 DSA problems
 
