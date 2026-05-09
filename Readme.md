@@ -16,7 +16,7 @@ This repository contains my **day-wise LeetCode solutions in Java**, along with 
 
 ## 📂 Repository Structure
 
-```bash
+```bash id="n7v2zk"
 Leetcode_problems/
 │
 ├── DAY-01_TwoSum/
@@ -47,6 +47,10 @@ Leetcode_problems/
 │   ├── ValidPalindrome.java
 │   └── README.md
 │
+├── DAY-08_RemoveDuplicatesSortedArray/
+│   ├── RemoveDuplicates.java
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -54,15 +58,16 @@ Leetcode_problems/
 
 ## 🚀 DSA Progress Tracker
 
-| Day    | Problem            | Approach            | Time Complexity   | Status |
-| ------ | ------------------ | ------------------- | ----------------- | ------ |
-| Day 01 | Two Sum            | HashMap             | O(n)              | ✅      |
-| Day 02 | Buy and Sell Stock | Single Pass         | O(n)              | ✅      |
-| Day 03 | Contains Duplicate | HashSet             | O(n)              | ✅      |
-| Day 04 | Move Zeroes        | Two Pointers        | O(n)              | ✅      |
-| Day 05 | Valid Anagram      | Sorting / Frequency | O(n log n) / O(n) | ✅      |
-| Day 06 | Reverse String     | Two Pointers        | O(n)              | ✅      |
-| Day 07 | Valid Palindrome   | Two Pointers        | O(n)              | ✅      |
+| Day    | Problem                             | Approach            | Time Complexity   | Status |
+| ------ | ----------------------------------- | ------------------- | ----------------- | ------ |
+| Day 01 | Two Sum                             | HashMap             | O(n)              | ✅      |
+| Day 02 | Buy and Sell Stock                  | Single Pass         | O(n)              | ✅      |
+| Day 03 | Contains Duplicate                  | HashSet             | O(n)              | ✅      |
+| Day 04 | Move Zeroes                         | Two Pointers        | O(n)              | ✅      |
+| Day 05 | Valid Anagram                       | Sorting / Frequency | O(n log n) / O(n) | ✅      |
+| Day 06 | Reverse String                      | Two Pointers        | O(n)              | ✅      |
+| Day 07 | Valid Palindrome                    | Two Pointers        | O(n)              | ✅      |
+| Day 08 | Remove Duplicates from Sorted Array | Two Pointers        | O(n)              | ✅      |
 
 ---
 
@@ -104,19 +109,19 @@ Leetcode_problems/
 
 1. Clone the repository:
 
-```bash
+```bash id="8x2nqe"
 git clone https://github.com/Meghanagowd/Leetcode_problems.git
 ```
 
 2. Navigate to any problem folder:
 
-```bash
+```bash id="m6y3ow"
 cd Leetcode_problems/DAY-01_TwoSum
 ```
 
 3. Compile and run:
 
-```bash
+```bash id="k2z9ta"
 javac TwoSum.java
 java TwoSum
 ```
@@ -132,6 +137,7 @@ java TwoSum
 ✔️ Day 05 → Valid Anagram
 ✔️ Day 06 → Reverse String
 ✔️ Day 07 → Valid Palindrome
+✔️ Day 08 → Remove Duplicates from Sorted Array
 
 🚀 On track to complete 100 DSA problems
 
