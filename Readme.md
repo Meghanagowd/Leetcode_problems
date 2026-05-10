@@ -16,7 +16,7 @@ This repository contains my **day-wise LeetCode solutions in Java**, along with 
 
 ## 📂 Repository Structure
 
-```bash id="n7v2zk"
+```bash id="m8w4px"
 Leetcode_problems/
 │
 ├── DAY-01_TwoSum/
@@ -51,6 +51,10 @@ Leetcode_problems/
 │   ├── RemoveDuplicates.java
 │   └── README.md
 │
+├── DAY-09_MissingNumber/
+│   ├── MissingNumber.java
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -68,6 +72,7 @@ Leetcode_problems/
 | Day 06 | Reverse String                      | Two Pointers        | O(n)              | ✅      |
 | Day 07 | Valid Palindrome                    | Two Pointers        | O(n)              | ✅      |
 | Day 08 | Remove Duplicates from Sorted Array | Two Pointers        | O(n)              | ✅      |
+| Day 09 | Missing Number                      | Math / XOR          | O(n)              | ✅      |
 
 ---
 
@@ -109,19 +114,19 @@ Leetcode_problems/
 
 1. Clone the repository:
 
-```bash id="8x2nqe"
+```bash id="2n9kde"
 git clone https://github.com/Meghanagowd/Leetcode_problems.git
 ```
 
 2. Navigate to any problem folder:
 
-```bash id="m6y3ow"
+```bash id="9g4cxb"
 cd Leetcode_problems/DAY-01_TwoSum
 ```
 
 3. Compile and run:
 
-```bash id="k2z9ta"
+```bash id="1f8mqa"
 javac TwoSum.java
 java TwoSum
 ```
@@ -138,6 +143,7 @@ java TwoSum
 ✔️ Day 06 → Reverse String
 ✔️ Day 07 → Valid Palindrome
 ✔️ Day 08 → Remove Duplicates from Sorted Array
+✔️ Day 09 → Missing Number
 
 🚀 On track to complete 100 DSA problems
 
